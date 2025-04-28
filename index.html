@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> This is a heading </h1>
-    <p style="color: blue;">
-         This is a paragrah
-        <strong> This is bold!</strong> 
-        <em> This is italic </em>
-    </p>
-    <h1 class="special">
-        This is still heading but another styling
-     
-    </h1>
+   <form action="#" id="manin_form">
+    <input type="number" id="number1">
+    <br>
+    <button onclick="checkNumber();" id="check_button">check</button>
+    <button onclick="resetNew();" id="reset_button" style="display: none;">reset</button>
+    <p id="result" style="color: red;"></p>
+   </form>
+   <!-- javaScript -->
+    <script>
+        function checkNumber() 
+        {
+            //show reset button 
+            document.getElementById("reset_button").style.display="block";
+            // hide check button 
+            
+                
+            
+
+        }
+
+    </script>
+    
 </body>
 </html>

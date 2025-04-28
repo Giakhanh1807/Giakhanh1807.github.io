@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> JavaScript Example</h1>
+   <form action="">
+    <input type="number" id="number1" placeholder="Enter first number">
+    <br>
+    <input type="number" id="number2" placeholder="Enter first number">
+    <br>
+    <button id="button1" onclick="addNumbers()">Sumbit</button>
+   </form>
+   <script>
+    function addNumbers () {
+        const num1 = parseFloat(document.getElementById('number1').value);
+        const num2 = parseFloat(document.getElementById('number2').value);
+        if(isNaN(Num1)|| isNaN(Num2))
+        alert("Please enter vaild number for the input.");
+        return;
+        
+    }
+   </script>
+    <script>
+        var txta = prompt(":");
+    
+        if (txta == null || txta.trim() == "" || isNaN(txta)) {
+          document.write("<font color='red'></font>");
+        } else if (txta % 2 == 0) {
+          document.write("<font color='green'>" + txta + " </font>");
+        } else {
+          document.write("<font color='blue'>✨ " + txta + " </font>");
+        }
+      </script>
+</body>
+</html>
